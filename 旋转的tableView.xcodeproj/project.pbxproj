@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		162583FF1D8FB631009B6DCB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 162583FE1D8FB631009B6DCB /* main.m */; };
+		162584021D8FB631009B6DCB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 162584011D8FB631009B6DCB /* AppDelegate.m */; };
+		162584081D8FB631009B6DCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 162584061D8FB631009B6DCB /* Main.storyboard */; };
+		1625840A1D8FB631009B6DCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 162584091D8FB631009B6DCB /* Assets.xcassets */; };
+		1625840D1D8FB631009B6DCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1625840B1D8FB631009B6DCB /* LaunchScreen.storyboard */; };
+		162584181D8FB632009B6DCB /* ___tableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 162584171D8FB632009B6DCB /* ___tableViewTests.m */; };
+		162584231D8FB632009B6DCB /* ___tableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 162584221D8FB632009B6DCB /* ___tableViewUITests.m */; };
+		162584351D8FD084009B6DCB /* ADHorizonalTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 162584341D8FD084009B6DCB /* ADHorizonalTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		162584141D8FB632009B6DCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 162583F21D8FB631009B6DCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 162583F91D8FB631009B6DCB;
+			remoteInfo = "旋转的tableView";
+		};
+		1625841F1D8FB632009B6DCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 162583F21D8FB631009B6DCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 162583F91D8FB631009B6DCB;
+			remoteInfo = "旋转的tableView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		162583FA1D8FB631009B6DCB /* 旋转的tableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "旋转的tableView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		162583FE1D8FB631009B6DCB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		162584001D8FB631009B6DCB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		162584011D8FB631009B6DCB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		162584071D8FB631009B6DCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		162584091D8FB631009B6DCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1625840C1D8FB631009B6DCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1625840E1D8FB631009B6DCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		162584131D8FB632009B6DCB /* 旋转的tableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "旋转的tableViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		162584171D8FB632009B6DCB /* ___tableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___tableViewTests.m"; sourceTree = "<group>"; };
+		162584191D8FB632009B6DCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1625841E1D8FB632009B6DCB /* 旋转的tableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "旋转的tableViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		162584221D8FB632009B6DCB /* ___tableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___tableViewUITests.m"; sourceTree = "<group>"; };
+		162584241D8FB632009B6DCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		162584331D8FD084009B6DCB /* ADHorizonalTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADHorizonalTableViewController.h; sourceTree = "<group>"; };
+		162584341D8FD084009B6DCB /* ADHorizonalTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADHorizonalTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		162583F71D8FB631009B6DCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		162584101D8FB632009B6DCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1625841B1D8FB632009B6DCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		162583F11D8FB631009B6DCB = {
+			isa = PBXGroup;
+			children = (
+				162583FC1D8FB631009B6DCB /* 旋转的tableView */,
+				162584161D8FB632009B6DCB /* 旋转的tableViewTests */,
+				162584211D8FB632009B6DCB /* 旋转的tableViewUITests */,
+				162583FB1D8FB631009B6DCB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		162583FB1D8FB631009B6DCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				162583FA1D8FB631009B6DCB /* 旋转的tableView.app */,
+				162584131D8FB632009B6DCB /* 旋转的tableViewTests.xctest */,
+				1625841E1D8FB632009B6DCB /* 旋转的tableViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		162583FC1D8FB631009B6DCB /* 旋转的tableView */ = {
+			isa = PBXGroup;
+			children = (
+				162584001D8FB631009B6DCB /* AppDelegate.h */,
+				162584011D8FB631009B6DCB /* AppDelegate.m */,
+				162584061D8FB631009B6DCB /* Main.storyboard */,
+				162584091D8FB631009B6DCB /* Assets.xcassets */,
+				1625840B1D8FB631009B6DCB /* LaunchScreen.storyboard */,
+				1625840E1D8FB631009B6DCB /* Info.plist */,
+				162583FD1D8FB631009B6DCB /* Supporting Files */,
+				162584331D8FD084009B6DCB /* ADHorizonalTableViewController.h */,
+				162584341D8FD084009B6DCB /* ADHorizonalTableViewController.m */,
+			);
+			path = "旋转的tableView";
+			sourceTree = "<group>";
+		};
+		162583FD1D8FB631009B6DCB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				162583FE1D8FB631009B6DCB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		162584161D8FB632009B6DCB /* 旋转的tableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				162584171D8FB632009B6DCB /* ___tableViewTests.m */,
+				162584191D8FB632009B6DCB /* Info.plist */,
+			);
+			path = "旋转的tableViewTests";
+			sourceTree = "<group>";
+		};
+		162584211D8FB632009B6DCB /* 旋转的tableViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				162584221D8FB632009B6DCB /* ___tableViewUITests.m */,
+				162584241D8FB632009B6DCB /* Info.plist */,
+			);
+			path = "旋转的tableViewUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		162583F91D8FB631009B6DCB /* 旋转的tableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 162584271D8FB632009B6DCB /* Build configuration list for PBXNativeTarget "旋转的tableView" */;
+			buildPhases = (
+				162583F61D8FB631009B6DCB /* Sources */,
+				162583F71D8FB631009B6DCB /* Frameworks */,
+				162583F81D8FB631009B6DCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "旋转的tableView";
+			productName = "旋转的tableView";
+			productReference = 162583FA1D8FB631009B6DCB /* 旋转的tableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		162584121D8FB632009B6DCB /* 旋转的tableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1625842A1D8FB632009B6DCB /* Build configuration list for PBXNativeTarget "旋转的tableViewTests" */;
+			buildPhases = (
+				1625840F1D8FB632009B6DCB /* Sources */,
+				162584101D8FB632009B6DCB /* Frameworks */,
+				162584111D8FB632009B6DCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				162584151D8FB632009B6DCB /* PBXTargetDependency */,
+			);
+			name = "旋转的tableViewTests";
+			productName = "旋转的tableViewTests";
+			productReference = 162584131D8FB632009B6DCB /* 旋转的tableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1625841D1D8FB632009B6DCB /* 旋转的tableViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1625842D1D8FB632009B6DCB /* Build configuration list for PBXNativeTarget "旋转的tableViewUITests" */;
+			buildPhases = (
+				1625841A1D8FB632009B6DCB /* Sources */,
+				1625841B1D8FB632009B6DCB /* Frameworks */,
+				1625841C1D8FB632009B6DCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				162584201D8FB632009B6DCB /* PBXTargetDependency */,
+			);
+			name = "旋转的tableViewUITests";
+			productName = "旋转的tableViewUITests";
+			productReference = 1625841E1D8FB632009B6DCB /* 旋转的tableViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		162583F21D8FB631009B6DCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AD;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "王奥东";
+				TargetAttributes = {
+					162583F91D8FB631009B6DCB = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					162584121D8FB632009B6DCB = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 162583F91D8FB631009B6DCB;
+					};
+					1625841D1D8FB632009B6DCB = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 162583F91D8FB631009B6DCB;
+					};
+				};
+			};
+			buildConfigurationList = 162583F51D8FB631009B6DCB /* Build configuration list for PBXProject "旋转的tableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 162583F11D8FB631009B6DCB;
+			productRefGroup = 162583FB1D8FB631009B6DCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				162583F91D8FB631009B6DCB /* 旋转的tableView */,
+				162584121D8FB632009B6DCB /* 旋转的tableViewTests */,
+				1625841D1D8FB632009B6DCB /* 旋转的tableViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		162583F81D8FB631009B6DCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1625840D1D8FB631009B6DCB /* LaunchScreen.storyboard in Resources */,
+				1625840A1D8FB631009B6DCB /* Assets.xcassets in Resources */,
+				162584081D8FB631009B6DCB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		162584111D8FB632009B6DCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1625841C1D8FB632009B6DCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		162583F61D8FB631009B6DCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				162584021D8FB631009B6DCB /* AppDelegate.m in Sources */,
+				162584351D8FD084009B6DCB /* ADHorizonalTableViewController.m in Sources */,
+				162583FF1D8FB631009B6DCB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1625840F1D8FB632009B6DCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				162584181D8FB632009B6DCB /* ___tableViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1625841A1D8FB632009B6DCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				162584231D8FB632009B6DCB /* ___tableViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		162584151D8FB632009B6DCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 162583F91D8FB631009B6DCB /* 旋转的tableView */;
+			targetProxy = 162584141D8FB632009B6DCB /* PBXContainerItemProxy */;
+		};
+		162584201D8FB632009B6DCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 162583F91D8FB631009B6DCB /* 旋转的tableView */;
+			targetProxy = 1625841F1D8FB632009B6DCB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		162584061D8FB631009B6DCB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				162584071D8FB631009B6DCB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1625840B1D8FB631009B6DCB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1625840C1D8FB631009B6DCB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		162584251D8FB632009B6DCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		162584261D8FB632009B6DCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		162584281D8FB632009B6DCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "旋转的tableView/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aodong.---tableView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		162584291D8FB632009B6DCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "旋转的tableView/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aodong.---tableView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1625842B1D8FB632009B6DCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "旋转的tableViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aodong.---tableViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/旋转的tableView.app/旋转的tableView";
+			};
+			name = Debug;
+		};
+		1625842C1D8FB632009B6DCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "旋转的tableViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aodong.---tableViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/旋转的tableView.app/旋转的tableView";
+			};
+			name = Release;
+		};
+		1625842E1D8FB632009B6DCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "旋转的tableViewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aodong.---tableViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "旋转的tableView";
+			};
+			name = Debug;
+		};
+		1625842F1D8FB632009B6DCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "旋转的tableViewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aodong.---tableViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "旋转的tableView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		162583F51D8FB631009B6DCB /* Build configuration list for PBXProject "旋转的tableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				162584251D8FB632009B6DCB /* Debug */,
+				162584261D8FB632009B6DCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		162584271D8FB632009B6DCB /* Build configuration list for PBXNativeTarget "旋转的tableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				162584281D8FB632009B6DCB /* Debug */,
+				162584291D8FB632009B6DCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1625842A1D8FB632009B6DCB /* Build configuration list for PBXNativeTarget "旋转的tableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1625842B1D8FB632009B6DCB /* Debug */,
+				1625842C1D8FB632009B6DCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1625842D1D8FB632009B6DCB /* Build configuration list for PBXNativeTarget "旋转的tableViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1625842E1D8FB632009B6DCB /* Debug */,
+				1625842F1D8FB632009B6DCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 162583F21D8FB631009B6DCB /* Project object */;
+}
