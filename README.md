@@ -4,3 +4,5 @@
 将一个tableView旋转90度，内部的tableViewCell在逆转90度
 
 达到tableView横向滚动，内部cell上挂载一个新的tableView用于显示
+
+感谢NSLog的帮助。
